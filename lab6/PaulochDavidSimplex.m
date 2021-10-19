@@ -63,6 +63,7 @@ while opt==0,
         
         if max(a) <= 0 
             disp('Obegränsad lösning');
+            return;
         else
             % Bestäm utgående variabel, utgix
             % -------
